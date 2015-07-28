@@ -169,43 +169,6 @@ body {
                         border-left: none !important;
                         border-right: none !important;
                     }
-
-                    /* #menu1 {
-                        background: #a7b649 url("img/menu1.png");
-                        
-                    }
-                    
-                    #menu2 {
-                        background-image: url("img/menu2.png");
-                    }
-                    
-                    #menu3 {
-                        background-image: url("img/menu3.png");
-                    }
-                    
-                    #menu4 {
-                        background-image: url("img/menu4.png");
-                    }
-                    
-                    #menu5 {
-                        background-image: url("img/menu5.png");
-                    }
-                    
-                    #menu6 {
-                        background-image: url("img/menu6.png");
-                    }
-                    
-                    #menu7 {
-                        background-image: url("img/menu7.png");
-                    }
-                    
-                    #menu8 {
-                        background-image: url("img/menu8.png");
-                    } 
-                     */
-
-                    
-
                         #menu a {
                             text-decoration: none;
                             font-size: 14px;
@@ -319,7 +282,6 @@ body {
                   height: 6px;
                   background: url("img/control.png") no-repeat;
                   z-index: 500;
-                  /*float: right;*/
                   margin-top: 8px;
                   margin-left: 6px;
                   background-position: -6px 0px;
@@ -330,8 +292,7 @@ body {
             height: 262px;
             text-align: left;
             position: relative;
-            float: left;
-            
+            float: left;            
 
         }
 
@@ -340,16 +301,14 @@ body {
         }
 
         .slide1 {
-            position: absolute;
-            
+            position: absolute;            
         }
 
         .slide2, .slide3, .slide4, .slide5 {            
             width: 280px;
             height: 268px;
             position: absolute;
-            border-radius: 0 0 8px 8px;
-            
+            border-radius: 0 0 8px 8px;            
         }
 
         .slide2 {
@@ -388,7 +347,6 @@ body {
             height: 270px;
             border-radius: 0 0 5px 5px;
             float: right;
-
         }
 
             .button {
@@ -400,8 +358,7 @@ body {
                 text-align: center;
                 line-height: 18px;
                 color: white;
-                text-shadow: 1px 1px 2px #6f7b21;
-                
+                text-shadow: 1px 1px 2px #6f7b21;                
                 box-sizing: border-box;
                 position: absolute;
                 top: 198px;
@@ -415,8 +372,7 @@ body {
                 width: 72px;        
                 background: url("img/button-moreinfo-bg.png");  
                 padding-top: 10px;
-                left: 18px;
-                
+                left: 18px;                
             }
 
             #catalogue a {
@@ -452,17 +408,14 @@ body {
                 #second-news {
                     background: #978563;
                     border-top: 1px solid #64512d;
-                    border-bottom: 1px solid #64512d;
-
-                    
+                    border-bottom: 1px solid #64512d;                    
                 }
 
                     #second-news .news-text {
                         color: #3f3219;
                     }
 
-                    .news-text {
-                        
+                    .news-text {                        
                         float: right;
                         width: 210px;
                         color: white;
@@ -539,13 +492,11 @@ body {
             width: 632px;
             float: left;
             border-right: 1px solid #4e422a;
-            padding-right: 28px;
-
+            padding-right: 28px
         }
 
         #form-column-left {
-            width: 195px;
-            
+            width: 195px;            
             float: left;
             overflow: hidden;
         }
@@ -566,7 +517,6 @@ body {
             box-sizing: border-box;
             text-align: left;
             font-family: MyriadPro-Regular;
-
         }
 
         #contact-us h3, #quick-contact h3 {
@@ -593,7 +543,6 @@ body {
             margin-bottom: 7px;
             padding-left: 8px;
             box-sizing: border-box;
-
             }
 
         label.contact-form, label.search {
@@ -603,7 +552,6 @@ body {
             font-size: 12px;
             font-family: MyriadPro-Regular;
             margin-right: 19px;
-
         }
 
         #form-column-right textarea.contact-form {
@@ -634,8 +582,7 @@ body {
             text-shadow: 1px 1px 1px #606d0f;
             font-size: 12px;
             font-family: MyriadPro-Regular;
-            margin-bottom: 2px;
-            
+            margin-bottom: 2px;            
             margin-top: 10px;
             cursor: pointer;
 
@@ -644,37 +591,35 @@ body {
         #contact-us button {
             margin-left: 508px;
         }
+            #quick-contact table {
+                float: left;
+                display: block;
+            }
 
-                    #quick-contact table {
-                        float: left;
-                        display: block;
-                    }
+            #quick-contact table tr td {
+                font-size: 12px;
+                font-family: MyriadPro-Regular;
+                text-align: left;
+                vertical-align: top;
+            }
+            .first-column {
+                color: #b8a37a;
+                width: 60px;
+            }
 
-                    #quick-contact table tr td {
-                        font-size: 12px;
-                        font-family: MyriadPro-Regular;
-                        text-align: left;
-                        vertical-align: top;
+            .second-column {
+                color: #ffffff;
+            }
 
-                    }
-                    .first-column {
-                        color: #b8a37a;
-                        width: 60px;
-                    }
+            #quick-contact button {
+                margin-left: 20px;
+            }
 
-                    .second-column {
-                        color: #ffffff;
-                    }
+            #quick-contact #last-row td{
+                height: 37px;
+                vertical-align: bottom;
 
-                    #quick-contact button {
-                        margin-left: 20px;
-                    }
-
-                    #quick-contact #last-row td{
-                        height: 37px;
-                        vertical-align: bottom;
-
-                    }
+            }
 
     footer {
         background: #695839;
